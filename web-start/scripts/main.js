@@ -97,10 +97,10 @@ FriendlyChat.prototype.saveMessage = function(e) {
       client.get('http://api.giphy.com/v1/gifs/translate?s=' + match[1] + '&api_key=dc6zaTOxFJmzC', function(response) {
           // do something with response
           var obj = JSON.parse(response);
-          if(obj.data.images === undefined) {
-            console.log("error");
-            return;
-          }
+          // if(obj.data.images === undefined) {
+          //   console.log("error");
+          //   return;
+          // }
           // Add a new message entry to the Firebase Database.
           messagesRef.push({
             name: currentUser.displayName,
