@@ -94,7 +94,7 @@ FriendlyChat.prototype.saveMessage = function(e) {
     if (match !== null) {
       //console.log(match[1]);
       var client = new this.HttpClient();
-      client.get('http://api.giphy.com/v1/gifs/translate?s=' + match[1] + '&api_key=dc6zaTOxFJmzC', function(response) {
+      client.get('https://api.giphy.com/v1/gifs/translate?s=' + match[1] + '&api_key=dc6zaTOxFJmzC', function(response) {
           // do something with response
           var obj = JSON.parse(response);
           if(obj.data.images === undefined) {
