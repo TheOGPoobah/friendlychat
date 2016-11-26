@@ -1,0 +1,23 @@
+{
+  "name": "web-start",
+  "version": "1.0.0",
+  "description": "firebase chat test",
+  "main": "index.js",
+  "dependencies": {
+    "giphy-api": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOGPoobah/friendlychat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheOGPoobah/friendlychat/issues"
+  },
+  "homepage": "https://github.com/TheOGPoobah/friendlychat#readme"
+}
